@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ffe1e1, #ffe6f0);
+  color: #333;
+  overflow-x: hidden;
+}
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url('https://source.unsplash.com/1600x900/?birthday') no-repeat center center/cover;
+  color: white;
+  padding: 2rem;
+}
+.hero h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.heartfelt-message {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+  color: #444;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.gallery img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.memories {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+}
+.memories p {
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+.music-player {
+  margin-top: 2rem;
+}
+.surprise-btn {
+  margin-top: 2rem;
+  background-color: #ffafcc;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.surprise-btn:hover {
+  background-color: #ff80ab;
+}
